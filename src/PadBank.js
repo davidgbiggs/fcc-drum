@@ -1,9 +1,4 @@
 import React, { useEffect } from "react";
-import { useSelector } from "react-redux";
-import {
-  selectPowerOn,
-  selectAlternateSounds,
-} from "./features/drumPad/drumPadSlice";
 import DrumPad from "./DrumPad";
 import { padData } from "./padData";
 
