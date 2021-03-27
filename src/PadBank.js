@@ -10,7 +10,7 @@ export default function PadBank() {
         playSound(padData[upperCaseKey].name);
       }
     });
-  }, [padData]);
+  }, []);
 
   function playSound(id) {
     const soundElement = document.getElementById(id);
